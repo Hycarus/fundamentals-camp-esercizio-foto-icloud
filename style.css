@@ -1,0 +1,92 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);       
+    background-color: white;  
+    
+}
+
+header{
+    height: 10vh;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+           
+}
+
+.plus{
+    color: #3481d0;
+    font-size: 30px;
+    clear: left;
+    margin-bottom: 10px;
+}
+
+.right{
+    float: right;    
+    width: 50%;
+    text-align: right;
+    color: #3481d0;    
+}
+
+.left{
+    font-size: 30px;
+    float: left;
+    width: 50%;    
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.container1{
+      
+    padding-top: 20px;
+        
+}
+
+
+
+.foto-riga-1{
+    background-image: url(panorama.jpeg);
+    background-size: cover;
+    width: calc(100% / 6 - 20px);
+    height: 150px;
+    margin: 10px ;
+    margin-top: 20px;
+    float: left;
+       
+}
+.container1:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.container2::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.post-riga-1{ 
+    width: calc(100% / 6 - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;    
+}
+
+.number{
+    color: rgb(138, 138, 138);
+}
+
+
